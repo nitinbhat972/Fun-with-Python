@@ -7,14 +7,14 @@ def decode(user):
     for i in user.lower():
         time.sleep(.5)
         if i == ' ':
-            print('/', end=' ')
+            print('/', end=' ') 
         elif i in morse.keys():
             print(morse[i], end=' ')
             for j in morse[i]:
                 if j == ".":
-                    playsound('\audio\morse_E.wav')
+                    playsound('\\audio\\morse_E.wav')
                 else:
-                    playsound('\audio\morse_T.wav')
+                    playsound('\\audio\\morse_T.wav')
         else:
             print("Hein ji??")
 
