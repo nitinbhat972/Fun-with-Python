@@ -12,9 +12,9 @@ def decode(user):
             print(morse[i], end=' ')
             for j in morse[i]:
                 if j == ".":
-                    playsound('\\audio\\morse_E.wav')
+                    playsound('/run/media/jokerop/0F5B0E910F5B0E91/Study/Python/Morse_Code/audio/morse_E.wav')
                 else:
-                    playsound('\\audio\\morse_T.wav')
+                    playsound('/run/media/jokerop/0F5B0E910F5B0E91/Study/Python/Morse_Code/audio/morse_T.wav')
         else:
             print("Hein ji??")
 
